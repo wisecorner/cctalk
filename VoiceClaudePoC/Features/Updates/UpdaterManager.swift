@@ -125,6 +125,10 @@ extension UpdaterManager: SPUStandardUserDriverDelegate {
 
 extension UpdaterManager: SPUUpdaterDelegate {
 
+    nonisolated func feedURLString(for updater: SPUUpdater) -> String? {
+        "https://github.com/wisecorner/cctalk/releases/latest/download/appcast.xml"
+    }
+
     nonisolated func updater(
         _ updater: SPUUpdater,
         shouldPostponeRelaunchForUpdate item: SUAppcastItem,
