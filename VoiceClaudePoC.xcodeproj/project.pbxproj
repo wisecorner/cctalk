@@ -431,9 +431,12 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Some Apple Event Description";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "CCTalk needs microphone access to record voice prompts for transcription.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "CCTalk uses Apple Speech Recognition for transcription.";
+				INFOPLIST_KEY_SUFeedURL = "https://github.com/wisecorner/cctalk/releases/latest/download/appcast.xml";
+				INFOPLIST_KEY_SUPublicEDKey = "kMO1nSd9qU4GiFZ6vxHOzC8Cke+AP3AzUvyPWA7+zh0=";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -470,9 +473,12 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Some Apple Event Description";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "CCTalk needs microphone access to record voice prompts for transcription.";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "CCTalk uses Apple Speech Recognition for transcription.";
+				INFOPLIST_KEY_SUFeedURL = "https://github.com/wisecorner/cctalk/releases/latest/download/appcast.xml";
+				INFOPLIST_KEY_SUPublicEDKey = "kMO1nSd9qU4GiFZ6vxHOzC8Cke+AP3AzUvyPWA7+zh0=";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
